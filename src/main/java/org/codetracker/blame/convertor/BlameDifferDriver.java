@@ -41,7 +41,6 @@ public class BlameDifferDriver {
                     add(BlamersEnum.FileTrackerBlame);
                     add(BlamersEnum.LHBlame);
                     add(BlamersEnum.LBlame);
-                    add(BlamersEnum.SBlame);
                     add(BlamersEnum.HistBlame);
                     add(BlamersEnum.MyersBlame);
                     add(BlamersEnum.HistBlameIW);
