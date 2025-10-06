@@ -71,9 +71,9 @@ public class BlameDifferDriver {
         //  For these cases, Increase the threshold
         //  1000 ?  try to get character numbers from moved methods directly from RefMiner -?
         //  experiment with https://github.com/junit-team/junit4/commit/7a3e99635d7ffcc4d730f27835eeaeb082003199
-        int low = 0;
-        int high = 100;
-        int step = 50;
+        int low = 1;
+        int high = 62;
+        int step = 15;
         blamerFactories.addAll(makeCliGitBlames("-M", low, high, step, false));
         blamerFactories.addAll(makeCliGitBlames("-C", low, high, step, false));
         blamerFactories.addAll(makeCliGitBlames("-M", low, high, step, true));
